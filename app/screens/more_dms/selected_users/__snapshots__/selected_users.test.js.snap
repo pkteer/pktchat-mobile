@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedUsers should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 5,
+      "marginLeft": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }
+  >
+    <SelectedUser
+      onRemove={[MockFunction]}
+      teammateNameDisplay="full_name"
+      testID="more_direct_messages.selected_user"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      user={
+        Object {
+          "id": "userId1",
+        }
+      }
+    />
+  </View>
+  <InjectIntl(FormattedText)
+    defaultMessage="You can add {remaining, number} more users"
+    id="mobile.more_dms.add_more"
+    style={
+      Object {
+        "color": "rgba(63,67,80,0.6)",
+        "fontSize": 12,
+        "marginBottom": 2,
+        "marginRight": 5,
+        "marginTop": 10,
+      }
+    }
+    values={
+      Object {
+        "remaining": 2,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`SelectedUsers should match snapshot for no warning message 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 5,
+      "marginLeft": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }
+  >
+    <SelectedUser
+      onRemove={[MockFunction]}
+      teammateNameDisplay="full_name"
+      testID="more_direct_messages.selected_user"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      user={
+        Object {
+          "id": "userId1",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`SelectedUsers should match snapshot to show warning for ability to add one more user 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 5,
+      "marginLeft": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }
+  >
+    <SelectedUser
+      onRemove={[MockFunction]}
+      teammateNameDisplay="full_name"
+      testID="more_direct_messages.selected_user"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      user={
+        Object {
+          "id": "userId2",
+        }
+      }
+    />
+    <SelectedUser
+      onRemove={[MockFunction]}
+      teammateNameDisplay="full_name"
+      testID="more_direct_messages.selected_user"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      user={
+        Object {
+          "id": "userId1",
+        }
+      }
+    />
+  </View>
+  <InjectIntl(FormattedText)
+    defaultMessage="You can add 1 more user"
+    id="mobile.more_dms.one_more"
+    style={
+      Object {
+        "color": "rgba(63,67,80,0.6)",
+        "fontSize": 12,
+        "marginBottom": 2,
+        "marginRight": 5,
+        "marginTop": 10,
+      }
+    }
+  />
+</View>
+`;

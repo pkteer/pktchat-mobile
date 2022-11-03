@@ -1,0 +1,2757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`channel_info_header should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="O"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot when DM and hasGuests and is the teammate 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="D"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <InjectIntl(FormattedText)
+        defaultMessage="This person is a guest"
+        id="channel.isGuest"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#3f4350",
+            "fontSize": 13,
+            "marginBottom": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot when DM and hasGuests but its me and not the teammate 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="D"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot when GM and hasGuests 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="G"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <InjectIntl(FormattedText)
+        defaultMessage="This group message has guests"
+        id="channel.hasGuests"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#3f4350",
+            "fontSize": 13,
+            "marginBottom": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot when is group constrained 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="O"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Members are managed by linked groups"
+      id="mobile.routes.channelInfo.groupManaged"
+    />
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot when public channel and hasGuests 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="O"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <InjectIntl(FormattedText)
+        defaultMessage="This channel has guests"
+        id="channel.channelHasGuests"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#3f4350",
+            "fontSize": 13,
+            "marginBottom": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot with custom status enabled 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="D"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 15,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+      ]
+    }
+    testID="channel_info.header.custom_status"
+  >
+    <Connect(Emoji)
+      emojiName="calendar"
+      size={20}
+      testID="custom_status.emoji.calendar"
+      textStyle={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "marginRight": 8,
+          },
+          Object {
+            "bottom": 0,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "width": "90%",
+        }
+      }
+    >
+      <CustomStatusText
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        text="In a meeting"
+        textStyle={
+          Object {
+            "color": "#3f4350",
+            "flex": 1,
+            "fontSize": 15,
+            "height": "100%",
+          }
+        }
+        theme={
+          Object {
+            "awayIndicator": "#ffbc1f",
+            "buttonBg": "#1c58d9",
+            "buttonColor": "#ffffff",
+            "centerChannelBg": "#ffffff",
+            "centerChannelColor": "#3f4350",
+            "codeTheme": "github",
+            "dndIndicator": "#d24b4e",
+            "errorTextColor": "#d24b4e",
+            "linkColor": "#386fe5",
+            "mentionBg": "#ffffff",
+            "mentionColor": "#1e325c",
+            "mentionHighlightBg": "#ffd470",
+            "mentionHighlightLink": "#1b1d22",
+            "newMessageSeparator": "#cc8f00",
+            "onlineIndicator": "#3db887",
+            "sidebarBg": "#1e325c",
+            "sidebarHeaderBg": "#192a4d",
+            "sidebarHeaderTextColor": "#ffffff",
+            "sidebarTeamBarBg": "#14213e",
+            "sidebarText": "#ffffff",
+            "sidebarTextActiveBorder": "#5d89ea",
+            "sidebarTextActiveColor": "#ffffff",
+            "sidebarTextHoverBg": "#28427b",
+            "sidebarUnreadText": "#ffffff",
+            "type": "Denim",
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;
+
+exports[`channel_info_header should match snapshot with custom status expiry 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": undefined,
+      "borderBottomWidth": 1,
+      "marginBottom": 40,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isInfo={true}
+      isUnread={false}
+      membersCount={3}
+      size={24}
+      testID="channel_info.header.channel_icon"
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="D"
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#3f4350",
+          "flex": 1,
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginLeft": 13,
+        }
+      }
+      testID="channel_info.header.display_name"
+    >
+      Channel name
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 15,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        },
+      ]
+    }
+    testID="channel_info.header.custom_status"
+  >
+    <Connect(Emoji)
+      emojiName="calendar"
+      size={20}
+      testID="custom_status.emoji.calendar"
+      textStyle={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "marginRight": 8,
+          },
+          Object {
+            "bottom": 8,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "width": "90%",
+        }
+      }
+    >
+      <CustomStatusText
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        text="In a meeting"
+        textStyle={
+          Object {
+            "color": "#3f4350",
+            "flex": 1,
+            "fontSize": 15,
+            "height": "100%",
+          }
+        }
+        theme={
+          Object {
+            "awayIndicator": "#ffbc1f",
+            "buttonBg": "#1c58d9",
+            "buttonColor": "#ffffff",
+            "centerChannelBg": "#ffffff",
+            "centerChannelColor": "#3f4350",
+            "codeTheme": "github",
+            "dndIndicator": "#d24b4e",
+            "errorTextColor": "#d24b4e",
+            "linkColor": "#386fe5",
+            "mentionBg": "#ffffff",
+            "mentionColor": "#1e325c",
+            "mentionHighlightBg": "#ffd470",
+            "mentionHighlightLink": "#1b1d22",
+            "newMessageSeparator": "#cc8f00",
+            "onlineIndicator": "#3db887",
+            "sidebarBg": "#1e325c",
+            "sidebarHeaderBg": "#192a4d",
+            "sidebarHeaderTextColor": "#ffffff",
+            "sidebarTeamBarBg": "#14213e",
+            "sidebarText": "#ffffff",
+            "sidebarTextActiveBorder": "#5d89ea",
+            "sidebarTextActiveColor": "#ffffff",
+            "sidebarTextHoverBg": "#28427b",
+            "sidebarUnreadText": "#ffffff",
+            "type": "Denim",
+          }
+        }
+      />
+      <CustomStatusExpiry
+        showPrefix={true}
+        textStyles={
+          Object {
+            "color": undefined,
+            "fontSize": 13,
+          }
+        }
+        theme={
+          Object {
+            "awayIndicator": "#ffbc1f",
+            "buttonBg": "#1c58d9",
+            "buttonColor": "#ffffff",
+            "centerChannelBg": "#ffffff",
+            "centerChannelColor": "#3f4350",
+            "codeTheme": "github",
+            "dndIndicator": "#d24b4e",
+            "errorTextColor": "#d24b4e",
+            "linkColor": "#386fe5",
+            "mentionBg": "#ffffff",
+            "mentionColor": "#1e325c",
+            "mentionHighlightBg": "#ffd470",
+            "mentionHighlightLink": "#1b1d22",
+            "newMessageSeparator": "#cc8f00",
+            "onlineIndicator": "#3db887",
+            "sidebarBg": "#1e325c",
+            "sidebarHeaderBg": "#192a4d",
+            "sidebarHeaderTextColor": "#ffffff",
+            "sidebarTeamBarBg": "#14213e",
+            "sidebarText": "#ffffff",
+            "sidebarTextActiveBorder": "#5d89ea",
+            "sidebarTextActiveColor": "#ffffff",
+            "sidebarTextHoverBg": "#28427b",
+            "sidebarUnreadText": "#ffffff",
+            "type": "Denim",
+          }
+        }
+        time="2200-04-13T18:09:12.451Z"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Purpose"
+          id="channel_info.purpose"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          testID="channel_info.header.purpose"
+        >
+          Purpose string
+        </Text>
+      </View>
+    </TouchableHighlight>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 15,
+      }
+    }
+  >
+    <TouchableHighlight
+      onLongPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <InjectIntl(FormattedText)
+          defaultMessage="Header"
+          id="channel_info.header"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#3f4350",
+              "fontSize": 13,
+              "marginBottom": 10,
+            }
+          }
+        />
+        <Connect(Markdown)
+          baseTextStyle={
+            Object {
+              "color": "#3f4350",
+              "fontSize": 13,
+              "lineHeight": 20,
+            }
+          }
+          blockStyles={
+            Object {
+              "adjacentParagraph": Object {
+                "marginTop": 6,
+              },
+              "horizontalRule": Object {
+                "backgroundColor": "#3f4350",
+                "height": 0.5,
+                "marginVertical": 10,
+              },
+              "quoteBlockIcon": Object {
+                "color": undefined,
+              },
+            }
+          }
+          disableAtChannelMentionHighlight={true}
+          disableGallery={true}
+          onChannelLinkPress={[MockFunction]}
+          testID="channel_info.header.header"
+          textStyles={
+            Object {
+              "code": Object {
+                "alignSelf": "center",
+                "backgroundColor": undefined,
+                "fontFamily": "Menlo",
+              },
+              "codeBlock": Object {
+                "fontFamily": "Menlo",
+              },
+              "del": Object {
+                "textDecorationLine": "line-through",
+              },
+              "emph": Object {
+                "fontStyle": "italic",
+              },
+              "error": Object {
+                "color": "#d24b4e",
+              },
+              "heading1": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading1Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading2": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading2Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading3": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading3Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading4": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading4Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading5": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading5Text": Object {
+                "paddingBottom": 8,
+              },
+              "heading6": Object {
+                "fontSize": 17,
+                "fontWeight": "700",
+                "lineHeight": 25,
+              },
+              "heading6Text": Object {
+                "paddingBottom": 8,
+              },
+              "link": Object {
+                "color": "#386fe5",
+              },
+              "mention": Object {
+                "color": "#386fe5",
+              },
+              "mention_highlight": Object {
+                "backgroundColor": "#ffd470",
+                "color": "#1b1d22",
+              },
+              "strong": Object {
+                "fontWeight": "bold",
+              },
+              "table_header_row": Object {
+                "fontWeight": "700",
+              },
+            }
+          }
+          value="Header string"
+        />
+      </View>
+    </TouchableHighlight>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": undefined,
+          "flexDirection": "row",
+          "fontSize": 12,
+          "marginTop": 5,
+        },
+        Object {
+          "paddingHorizontal": 15,
+        },
+      ]
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Created by {creator} on "
+      id="mobile.routes.channelInfo.createdBy"
+      values={
+        Object {
+          "creator": "Creator",
+        }
+      }
+    />
+    <FormattedDate
+      format="LL"
+      value={123}
+    />
+  </Text>
+</View>
+`;

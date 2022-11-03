@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`profile_picture_button should match snapshot 1`] = `
+<AttachmentButton
+  browseFileTypes="public.item"
+  canBrowseFiles={true}
+  canBrowsePhotoLibrary={true}
+  canBrowseVideoLibrary={true}
+  canTakePhoto={true}
+  canTakeVideo={true}
+  extraOptions={
+    Array [
+      null,
+    ]
+  }
+  maxFileCount={5}
+  maxFileSize={20971520}
+  theme={
+    Object {
+      "awayIndicator": "#ffbc1f",
+      "buttonBg": "#1c58d9",
+      "buttonColor": "#ffffff",
+      "centerChannelBg": "#ffffff",
+      "centerChannelColor": "#3f4350",
+      "codeTheme": "github",
+      "dndIndicator": "#d24b4e",
+      "errorTextColor": "#d24b4e",
+      "linkColor": "#386fe5",
+      "mentionBg": "#ffffff",
+      "mentionColor": "#1e325c",
+      "mentionHighlightBg": "#ffd470",
+      "mentionHighlightLink": "#1b1d22",
+      "newMessageSeparator": "#cc8f00",
+      "onlineIndicator": "#3db887",
+      "sidebarBg": "#1e325c",
+      "sidebarHeaderBg": "#192a4d",
+      "sidebarHeaderTextColor": "#ffffff",
+      "sidebarTeamBarBg": "#14213e",
+      "sidebarText": "#ffffff",
+      "sidebarTextActiveBorder": "#5d89ea",
+      "sidebarTextActiveColor": "#ffffff",
+      "sidebarTextHoverBg": "#28427b",
+      "sidebarUnreadText": "#ffffff",
+      "type": "Denim",
+    }
+  }
+  uploadFiles={[MockFunction]}
+  validMimeTypes={Array []}
+/>
+`;

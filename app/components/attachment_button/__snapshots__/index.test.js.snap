@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttachmentButton should match snapshot 1`] = `
+<TouchableWithFeedbackIOS
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "height": 34,
+      "justifyContent": "center",
+      "width": 45,
+    }
+  }
+  type="opacity"
+>
+  <CompassIcon
+    color="rgba(63,67,80,0.9)"
+    name="plus"
+    size={30}
+    style={
+      Object {
+        "marginTop": 2,
+      }
+    }
+  />
+</TouchableWithFeedbackIOS>
+`;

@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`thread should match snapshot, has root post 1`] = `
+<React.Fragment>
+  <Connect(SafeArea)
+    excludeHeader={true}
+    forceInsets={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(63,67,80,0.2)",
+          "height": 1,
+        }
+      }
+    />
+    <Connect(StatusBar) />
+    <React.Fragment>
+      <ForwardRef(AnimatedComponentWrapper)
+        style={
+          Object {
+            "flex": 1,
+            "paddingBottom": 0,
+          }
+        }
+        testID="thread.screen"
+      >
+        <Connect(InjectIntl(PostList))
+          currentUserId="member_user_id"
+          location="Thread"
+          postIds={
+            Array [
+              "root_id",
+              "post_id_1",
+              "post_id_2",
+            ]
+          }
+          renderFooter={
+            <Loading
+              color="#3f4350"
+              size="large"
+              style={Object {}}
+            />
+          }
+          rootId="root_id"
+          scrollViewNativeID="threadPostList"
+          testID="thread.post_list"
+        />
+      </ForwardRef(AnimatedComponentWrapper)>
+    </React.Fragment>
+  </Connect(SafeArea)>
+  <View
+    nativeID="threadAccessoriesContainer"
+  >
+    <Connect(Autocomplete)
+      channelId="channel_id"
+      cursorPositionEvent="onThreadTextBoxCursorChange"
+      maxHeight={200}
+      offsetY={0}
+      onChangeText={[Function]}
+      rootId="root_id"
+      valueEvent="onThreadTextBoxValueChange"
+    />
+  </View>
+  <Connect(PostDraft)
+    accessoriesContainerID="threadAccessoriesContainer"
+    channelId="channel_id"
+    channelIsArchived={false}
+    cursorPositionEvent="onThreadTextBoxCursorChange"
+    registerTypingAnimation={[Function]}
+    rootId="root_id"
+    scrollViewNativeID="threadPostList"
+    testID="thread.post_draft"
+    valueEvent="onThreadTextBoxValueChange"
+  />
+</React.Fragment>
+`;
+
+exports[`thread should match snapshot, no root post, loading 1`] = `
+<React.Fragment>
+  <Connect(SafeArea)
+    excludeHeader={true}
+    forceInsets={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(63,67,80,0.2)",
+          "height": 1,
+        }
+      }
+    />
+    <Connect(StatusBar) />
+    <Loading
+      color="#3f4350"
+      size="large"
+      style={Object {}}
+    />
+  </Connect(SafeArea)>
+  <View
+    nativeID="threadAccessoriesContainer"
+  >
+    <Connect(Autocomplete)
+      channelId="channel_id"
+      cursorPositionEvent="onThreadTextBoxCursorChange"
+      maxHeight={200}
+      offsetY={0}
+      onChangeText={[Function]}
+      rootId="root_id"
+      valueEvent="onThreadTextBoxValueChange"
+    />
+  </View>
+</React.Fragment>
+`;
+
+exports[`thread should match snapshot, render footer 1`] = `
+<Connect(InjectIntl(PostList))
+  currentUserId="member_user_id"
+  location="Thread"
+  postIds={
+    Array [
+      "root_id",
+      "post_id_1",
+      "post_id_2",
+    ]
+  }
+  renderFooter={
+    <Loading
+      color="#3f4350"
+      size="large"
+      style={Object {}}
+    />
+  }
+  rootId="root_id"
+  scrollViewNativeID="threadPostList"
+  testID="thread.post_list"
+/>
+`;
+
+exports[`thread should match snapshot, render footer 2`] = `
+<Connect(InjectIntl(PostList))
+  currentUserId="member_user_id"
+  location="Thread"
+  postIds={
+    Array [
+      "root_id",
+      "post_id_1",
+      "post_id_2",
+    ]
+  }
+  renderFooter={null}
+  rootId="root_id"
+  scrollViewNativeID="threadPostList"
+  testID="thread.post_list"
+/>
+`;
+
+exports[`thread should match snapshot, render footer 3`] = `
+<React.Fragment>
+  <Connect(SafeArea)
+    excludeHeader={true}
+    forceInsets={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(63,67,80,0.2)",
+          "height": 1,
+        }
+      }
+    />
+    <Connect(StatusBar) />
+    <Loading
+      color="#3f4350"
+      size="large"
+      style={Object {}}
+    />
+  </Connect(SafeArea)>
+  <View
+    nativeID="threadAccessoriesContainer"
+  >
+    <Connect(Autocomplete)
+      channelId="channel_id"
+      cursorPositionEvent="onThreadTextBoxCursorChange"
+      maxHeight={200}
+      offsetY={0}
+      onChangeText={[Function]}
+      rootId="root_id"
+      valueEvent="onThreadTextBoxValueChange"
+    />
+  </View>
+</React.Fragment>
+`;

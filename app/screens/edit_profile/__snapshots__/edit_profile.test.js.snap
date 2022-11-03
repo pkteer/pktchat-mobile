@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`edit_profile should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "padding": 25,
+    }
+  }
+>
+  <Connect(ProfilePicture)
+    edit={false}
+    iconSize={104}
+    imageUri={null}
+    size={153}
+    statusBorderWidth={6}
+    statusSize={36}
+    testID="edit_profile.profile_picture"
+  />
+</View>
+`;

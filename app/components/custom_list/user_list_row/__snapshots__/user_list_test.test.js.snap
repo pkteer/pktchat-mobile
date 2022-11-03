@@ -1,0 +1,741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserListRow should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <CustomListRow
+    enabled={true}
+    id="21345"
+    onPress={[Function]}
+    testID="custom_list.user_item"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#3f4350",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Connect(ProfilePicture)
+        iconSize={24}
+        size={32}
+        testID="custom_list.user_item.21345.profile_picture"
+        userId="21345"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 10,
+        }
+      }
+      testID="custom_list.user_item.21345"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#3f4350",
+                "fontSize": 15,
+              }
+            }
+            testID="custom_list.user_item.display_username"
+          >
+            @user
+          </Text>
+          <BotTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+          <GuestTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </CustomListRow>
+</View>
+`;
+
+exports[`UserListRow should match snapshot for  currentUser with (you) populated in list 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <CustomListRow
+    enabled={true}
+    id="21345"
+    onPress={[Function]}
+    testID="custom_list.user_item"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#3f4350",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Connect(ProfilePicture)
+        iconSize={24}
+        size={32}
+        testID="custom_list.user_item.21345.profile_picture"
+        userId="21345"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 10,
+        }
+      }
+      testID="custom_list.user_item.21345"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#3f4350",
+                "fontSize": 15,
+              }
+            }
+            testID="custom_list.user_item.display_username"
+          >
+            @user - you
+          </Text>
+          <BotTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+          <GuestTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </CustomListRow>
+</View>
+`;
+
+exports[`UserListRow should match snapshot for deactivated user 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <CustomListRow
+    enabled={true}
+    id="21345"
+    onPress={[Function]}
+    testID="custom_list.user_item"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#3f4350",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Connect(ProfilePicture)
+        iconSize={24}
+        size={32}
+        testID="custom_list.user_item.21345.profile_picture"
+        userId="21345"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 10,
+        }
+      }
+      testID="custom_list.user_item.21345"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#3f4350",
+                "fontSize": 15,
+              }
+            }
+            testID="custom_list.user_item.display_username"
+          >
+            @user
+          </Text>
+          <BotTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+          <GuestTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+              "marginTop": 2,
+            }
+          }
+        >
+          Deactivated
+        </Text>
+      </View>
+    </View>
+  </CustomListRow>
+</View>
+`;
+
+exports[`UserListRow should match snapshot for guest user 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <CustomListRow
+    enabled={true}
+    id="21345"
+    onPress={[Function]}
+    testID="custom_list.user_item"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#3f4350",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Connect(ProfilePicture)
+        iconSize={24}
+        size={32}
+        testID="custom_list.user_item.21345.profile_picture"
+        userId="21345"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 10,
+        }
+      }
+      testID="custom_list.user_item.21345"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#3f4350",
+                "fontSize": 15,
+              }
+            }
+            testID="custom_list.user_item.display_username"
+          >
+            @user
+          </Text>
+          <BotTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+          <GuestTag
+            show={true}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </CustomListRow>
+</View>
+`;
+
+exports[`UserListRow should match snapshot for remote user 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <CustomListRow
+    enabled={true}
+    id="21345"
+    onPress={[Function]}
+    testID="custom_list.user_item"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#3f4350",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Connect(ProfilePicture)
+        iconSize={24}
+        size={32}
+        testID="custom_list.user_item.21345.profile_picture"
+        userId="21345"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 10,
+        }
+      }
+      testID="custom_list.user_item.21345"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#3f4350",
+                "fontSize": 15,
+              }
+            }
+            testID="custom_list.user_item.display_username"
+          >
+            @user
+          </Text>
+          <BotTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+          <GuestTag
+            show={false}
+            theme={
+              Object {
+                "awayIndicator": "#ffbc1f",
+                "buttonBg": "#1c58d9",
+                "buttonColor": "#ffffff",
+                "centerChannelBg": "#ffffff",
+                "centerChannelColor": "#3f4350",
+                "codeTheme": "github",
+                "dndIndicator": "#d24b4e",
+                "errorTextColor": "#d24b4e",
+                "linkColor": "#386fe5",
+                "mentionBg": "#ffffff",
+                "mentionColor": "#1e325c",
+                "mentionHighlightBg": "#ffd470",
+                "mentionHighlightLink": "#1b1d22",
+                "newMessageSeparator": "#cc8f00",
+                "onlineIndicator": "#3db887",
+                "sidebarBg": "#1e325c",
+                "sidebarHeaderBg": "#192a4d",
+                "sidebarHeaderTextColor": "#ffffff",
+                "sidebarTeamBarBg": "#14213e",
+                "sidebarText": "#ffffff",
+                "sidebarTextActiveBorder": "#5d89ea",
+                "sidebarTextActiveColor": "#ffffff",
+                "sidebarTextHoverBg": "#28427b",
+                "sidebarUnreadText": "#ffffff",
+                "type": "Denim",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <ChannelIcon
+      hasDraft={false}
+      isActive={false}
+      isArchived={false}
+      isBot={false}
+      isInfo={true}
+      isUnread={true}
+      membersCount={0}
+      shared={true}
+      size={18}
+      style={
+        Object {
+          "alignSelf": "center",
+          "opacity": 0.75,
+        }
+      }
+      theme={
+        Object {
+          "awayIndicator": "#ffbc1f",
+          "buttonBg": "#1c58d9",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3f4350",
+          "codeTheme": "github",
+          "dndIndicator": "#d24b4e",
+          "errorTextColor": "#d24b4e",
+          "linkColor": "#386fe5",
+          "mentionBg": "#ffffff",
+          "mentionColor": "#1e325c",
+          "mentionHighlightBg": "#ffd470",
+          "mentionHighlightLink": "#1b1d22",
+          "newMessageSeparator": "#cc8f00",
+          "onlineIndicator": "#3db887",
+          "sidebarBg": "#1e325c",
+          "sidebarHeaderBg": "#192a4d",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarTeamBarBg": "#14213e",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#5d89ea",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#28427b",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Denim",
+        }
+      }
+      type="D"
+    />
+  </CustomListRow>
+</View>
+`;

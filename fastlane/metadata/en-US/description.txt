@@ -1,0 +1,15 @@
+Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
+
+- Keep all of your team communications in one place.
+- Orchestrate work across your tools and teams.
+- Plan projects and hit milestones.
+- Unite your entire technology stack through a single point of collaboration.
+- Meet the strictest security, privacy, and compliance requirements.
+
+To use this app, you need a URL for a Mattermost server. 
+
+Deploy your own server: https://docs.mattermost.com/guides/deployment.html
+
+Terms of Service: https://mattermost.com/terms-of-service/ 
+
+Contribute to the project: https://github.com/mattermost/mattermost-mobile

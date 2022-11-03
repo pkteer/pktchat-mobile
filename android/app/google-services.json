@@ -1,0 +1,39 @@
+{
+    "project_info": {
+        "project_number": "518221889846",
+        "project_id": "pkt-chat",
+        "storage_bucket": "pkt-chat.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:518221889846:android:f0d4396cd9741133fd3397",
+                "android_client_info": {
+                    "package_name": "com.pktchat.rnbeta"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "518221889846-kh377gufgmip6h26osd00ulmangnhjid.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBWIbv3hjnu-1pIAJl8XWKU_ornvka6b6s"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "518221889846-kh377gufgmip6h26osd00ulmangnhjid.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

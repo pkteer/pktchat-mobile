@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChannelNavBar should match, full snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Context.Provider
+    value={
+      Object {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0,
+      }
+    }
+  >
+    <Context.Provider
+      value={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <ChannelNavBar
+        isLandscape={false}
+        onPress={[MockFunction]}
+        openMainSidebar={[MockFunction]}
+        openSettingsSidebar={[MockFunction]}
+        theme={
+          Object {
+            "awayIndicator": "#ffbc1f",
+            "buttonBg": "#1c58d9",
+            "buttonColor": "#ffffff",
+            "centerChannelBg": "#ffffff",
+            "centerChannelColor": "#3f4350",
+            "codeTheme": "github",
+            "dndIndicator": "#d24b4e",
+            "errorTextColor": "#d24b4e",
+            "linkColor": "#386fe5",
+            "mentionBg": "#ffffff",
+            "mentionColor": "#1e325c",
+            "mentionHighlightBg": "#ffd470",
+            "mentionHighlightLink": "#1b1d22",
+            "newMessageSeparator": "#cc8f00",
+            "onlineIndicator": "#3db887",
+            "sidebarBg": "#1e325c",
+            "sidebarHeaderBg": "#192a4d",
+            "sidebarHeaderTextColor": "#ffffff",
+            "sidebarTeamBarBg": "#14213e",
+            "sidebarText": "#ffffff",
+            "sidebarTextActiveBorder": "#5d89ea",
+            "sidebarTextActiveColor": "#ffffff",
+            "sidebarTextHoverBg": "#28427b",
+            "sidebarUnreadText": "#ffffff",
+            "type": "Denim",
+          }
+        }
+      />
+    </Context.Provider>
+  </Context.Provider>
+</RNCSafeAreaProvider>
+`;

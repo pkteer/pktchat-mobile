@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OptionModalList should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "height": "100%",
+      "justifyContent": "flex-end",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "maxWidth": 450,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "stretch",
+            "backgroundColor": "white",
+            "borderTopLeftRadius": 12,
+            "borderTopRightRadius": 12,
+            "paddingBottom": 25,
+            "paddingTop": 10,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+              "width": "100%",
+            },
+            Object {
+              "paddingBottom": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3D3C40",
+              "fontSize": 24,
+              "fontWeight": "600",
+              "lineHeight": 32,
+              "textAlign": "left",
+              "width": "100%",
+            }
+          }
+        >
+          test
+        </Text>
+      </View>
+      <View>
+        <TouchableOpacity
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+              "width": "100%",
+            }
+          }
+        >
+          <CompassIcon
+            name="camera"
+            size={24}
+            style={
+              Object {
+                "color": "rgba(61, 60, 64, 0.64)",
+                "paddingRight": 10,
+              }
+            }
+          />
+          <InjectIntl(FormattedText)
+            defaultMessage="Take Photo or Video"
+            id="mobile.file_upload.camera"
+            style={
+              Array [
+                Object {
+                  "color": "#3D3C40",
+                  "flex": 1,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "lineHeight": 24,
+                },
+                undefined,
+                false,
+              ]
+            }
+          />
+        </TouchableOpacity>
+      </View>
+      <View>
+        <TouchableOpacity
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+              "width": "100%",
+            }
+          }
+        >
+          <CompassIcon
+            name="photo"
+            size={24}
+            style={
+              Object {
+                "color": "rgba(61, 60, 64, 0.64)",
+                "paddingRight": 10,
+              }
+            }
+          />
+          <InjectIntl(FormattedText)
+            defaultMessage="Photo Library"
+            id="mobile.file_upload.library"
+            style={
+              Array [
+                Object {
+                  "color": "#3D3C40",
+                  "flex": 1,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "lineHeight": 24,
+                },
+                undefined,
+                false,
+              ]
+            }
+          />
+        </TouchableOpacity>
+      </View>
+    </View>
+  </View>
+</View>
+`;

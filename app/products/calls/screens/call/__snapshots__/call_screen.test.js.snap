@@ -1,0 +1,2249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallScreen Landscape should match snapshot 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "black",
+        "borderRadius": 5,
+        "flexDirection": "column",
+        "height": "100%",
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "flexDirection": "row",
+          "height": 64,
+          "padding": 0,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 10,
+          "position": "absolute",
+          "top": -1000,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <CallDuration
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 1,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+        updateIntervalInSeconds={1}
+        value={100}
+      />
+      <Pressable
+        onPress={[Function]}
+      >
+        <CompassIcon
+          name="arrow-collapse"
+          size={24}
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.12)",
+              "borderRadius": 4,
+              "color": "#ffffff",
+              "margin": 10,
+              "overflow": "hidden",
+              "padding": 10,
+            }
+          }
+        />
+      </Pressable>
+    </View>
+    <ScrollView
+      alwaysBounceVertical={false}
+      contentContainerStyle={Object {}}
+      horizontal={false}
+    >
+      <Pressable
+        onPress={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+        testID="users-list"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <CallAvatar
+            muted={false}
+            raisedHand={false}
+            sharingScreen={false}
+            size="l"
+            userId="user-1-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <CallAvatar
+            muted={true}
+            raisedHand={false}
+            sharingScreen={false}
+            size="l"
+            userId="user-2-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 2
+             (you)
+          </Text>
+        </View>
+      </Pressable>
+    </ScrollView>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "bottom": 1000,
+          "flexDirection": "column",
+          "height": 128,
+          "paddingBottom": 10,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignContent": "space-between",
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="leave"
+        >
+          <CompassIcon
+            name="phone-hangup"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "#D24B4E",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Leave
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="toggle-speakerphone"
+        >
+          <CompassIcon
+            name="volume-high"
+            size={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "color": "#ffffff",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Speaker
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <RaisedHandIcon
+            fill="#ffffff"
+            height={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 34,
+                },
+              ]
+            }
+            svgStyle={
+              Object {
+                "position": "relative",
+                "right": 13,
+                "top": -12,
+              }
+            }
+            width={24}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Raise hand
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <CompassIcon
+            name="dots-horizontal"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.12)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            More
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="mute-unmute"
+        >
+          <CompassIcon
+            name="microphone-off"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.16)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Unmute
+          </Text>
+        </Pressable>
+      </View>
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`CallScreen Landscape should match snapshot with screenshare 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "black",
+        "borderRadius": 5,
+        "flexDirection": "column",
+        "height": "100%",
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "flexDirection": "row",
+          "height": 64,
+          "padding": 0,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 10,
+          "position": "absolute",
+          "top": -1000,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <CallDuration
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 1,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+        updateIntervalInSeconds={1}
+        value={100}
+      />
+      <Pressable
+        onPress={[Function]}
+      >
+        <CompassIcon
+          name="arrow-collapse"
+          size={24}
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.12)",
+              "borderRadius": 4,
+              "color": "#ffffff",
+              "margin": 10,
+              "overflow": "hidden",
+              "padding": 10,
+            }
+          }
+        />
+      </Pressable>
+    </View>
+    <Pressable
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 7,
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+      testID="screen-share-container"
+    >
+      <RTCVideoView
+        streamURL="screen-share-url"
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 7,
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "margin": 3,
+          }
+        }
+      >
+        You are viewing User 2's screen
+      </Text>
+    </Pressable>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "bottom": 1000,
+          "flexDirection": "column",
+          "height": 128,
+          "paddingBottom": 10,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignContent": "space-between",
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="leave"
+        >
+          <CompassIcon
+            name="phone-hangup"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "#D24B4E",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Leave
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="toggle-speakerphone"
+        >
+          <CompassIcon
+            name="volume-high"
+            size={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "color": "#ffffff",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Speaker
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <RaisedHandIcon
+            fill="#ffffff"
+            height={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 34,
+                },
+              ]
+            }
+            svgStyle={
+              Object {
+                "position": "relative",
+                "right": 13,
+                "top": -12,
+              }
+            }
+            width={24}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Raise hand
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <CompassIcon
+            name="dots-horizontal"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.12)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            More
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="mute-unmute"
+        >
+          <CompassIcon
+            name="microphone-off"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.16)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Unmute
+          </Text>
+        </Pressable>
+      </View>
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`CallScreen Portrait should match snapshot 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "black",
+        "borderRadius": 5,
+        "flexDirection": "column",
+        "height": "100%",
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 10,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <CallDuration
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 1,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+        updateIntervalInSeconds={1}
+        value={100}
+      />
+      <Pressable
+        onPress={[Function]}
+      >
+        <CompassIcon
+          name="arrow-collapse"
+          size={24}
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.12)",
+              "borderRadius": 4,
+              "color": "#ffffff",
+              "margin": 10,
+              "overflow": "hidden",
+              "padding": 10,
+            }
+          }
+        />
+      </Pressable>
+    </View>
+    <ScrollView
+      alwaysBounceVertical={false}
+      contentContainerStyle={Object {}}
+      horizontal={false}
+    >
+      <Pressable
+        onPress={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+        testID="users-list"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <CallAvatar
+            muted={false}
+            raisedHand={false}
+            sharingScreen={false}
+            size="l"
+            userId="user-1-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <CallAvatar
+            muted={true}
+            raisedHand={false}
+            sharingScreen={false}
+            size="l"
+            userId="user-2-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 2
+             (you)
+          </Text>
+        </View>
+      </Pressable>
+    </ScrollView>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255,255,255,0.16)",
+          "flexDirection": "column",
+          "paddingBottom": 10,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <Pressable
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255,255,255,0.16)",
+            "borderRadius": 20,
+            "flexDirection": "column",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 20,
+            "padding": 30,
+          }
+        }
+        testID="mute-unmute"
+      >
+        <CompassIcon
+          name="microphone-off"
+          size={24}
+          style={
+            Object {
+              "color": "#ffffff",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+            }
+          }
+        >
+          Unmute
+        </Text>
+      </Pressable>
+      <View
+        style={
+          Object {
+            "alignContent": "space-between",
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="leave"
+        >
+          <CompassIcon
+            name="phone-hangup"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "#D24B4E",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Leave
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="toggle-speakerphone"
+        >
+          <CompassIcon
+            name="volume-high"
+            size={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "color": "#ffffff",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Speaker
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <RaisedHandIcon
+            fill="#ffffff"
+            height={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 34,
+                },
+              ]
+            }
+            svgStyle={
+              Object {
+                "position": "relative",
+                "right": 13,
+                "top": -12,
+              }
+            }
+            width={24}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Raise hand
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <CompassIcon
+            name="dots-horizontal"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.12)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            More
+          </Text>
+        </Pressable>
+      </View>
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`CallScreen Portrait should match snapshot with screenshare 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "black",
+        "borderRadius": 5,
+        "flexDirection": "column",
+        "height": "100%",
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 10,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <CallDuration
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 1,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+        updateIntervalInSeconds={1}
+        value={100}
+      />
+      <Pressable
+        onPress={[Function]}
+      >
+        <CompassIcon
+          name="arrow-collapse"
+          size={24}
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.12)",
+              "borderRadius": 4,
+              "color": "#ffffff",
+              "margin": 10,
+              "overflow": "hidden",
+              "padding": 10,
+            }
+          }
+        />
+      </Pressable>
+    </View>
+    <ScrollView
+      alwaysBounceVertical={false}
+      contentContainerStyle={Object {}}
+      horizontal={true}
+    >
+      <Pressable
+        onPress={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+        testID="users-list"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 0,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 0,
+            }
+          }
+        >
+          <CallAvatar
+            muted={false}
+            raisedHand={false}
+            sharingScreen={false}
+            size="m"
+            userId="user-1-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 0,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 0,
+            }
+          }
+        >
+          <CallAvatar
+            muted={true}
+            raisedHand={false}
+            sharingScreen={true}
+            size="m"
+            userId="user-2-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 2
+             (you)
+          </Text>
+        </View>
+      </Pressable>
+    </ScrollView>
+    <Pressable
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 7,
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+      testID="screen-share-container"
+    >
+      <RTCVideoView
+        streamURL="screen-share-url"
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 7,
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "margin": 3,
+          }
+        }
+      >
+        You are viewing User 2's screen
+      </Text>
+    </Pressable>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255,255,255,0.16)",
+          "flexDirection": "column",
+          "paddingBottom": 10,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <Pressable
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255,255,255,0.16)",
+            "borderRadius": 20,
+            "flexDirection": "column",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 20,
+            "padding": 30,
+          }
+        }
+        testID="mute-unmute"
+      >
+        <CompassIcon
+          name="microphone-off"
+          size={24}
+          style={
+            Object {
+              "color": "#ffffff",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+            }
+          }
+        >
+          Unmute
+        </Text>
+      </Pressable>
+      <View
+        style={
+          Object {
+            "alignContent": "space-between",
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="leave"
+        >
+          <CompassIcon
+            name="phone-hangup"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "#D24B4E",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Leave
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="toggle-speakerphone"
+        >
+          <CompassIcon
+            name="volume-high"
+            size={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "color": "#ffffff",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Speaker
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <RaisedHandIcon
+            fill="#ffffff"
+            height={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 34,
+                },
+              ]
+            }
+            svgStyle={
+              Object {
+                "position": "relative",
+                "right": 13,
+                "top": -12,
+              }
+            }
+            width={24}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Raise hand
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <CompassIcon
+            name="dots-horizontal"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.12)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            More
+          </Text>
+        </Pressable>
+      </View>
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`CallScreen should show controls in landscape view on click the screen share 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "black",
+        "borderRadius": 5,
+        "flexDirection": "column",
+        "height": "100%",
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "flexDirection": "row",
+          "height": 64,
+          "padding": 0,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 10,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <CallDuration
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 1,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+        updateIntervalInSeconds={1}
+        value={100}
+      />
+      <Pressable
+        onPress={[Function]}
+      >
+        <CompassIcon
+          name="arrow-collapse"
+          size={24}
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.12)",
+              "borderRadius": 4,
+              "color": "#ffffff",
+              "margin": 10,
+              "overflow": "hidden",
+              "padding": 10,
+            }
+          }
+        />
+      </Pressable>
+    </View>
+    <Pressable
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 7,
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+      testID="screen-share-container"
+    >
+      <RTCVideoView
+        streamURL="screen-share-url"
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 7,
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "margin": 3,
+          }
+        }
+      >
+        You are viewing User 2's screen
+      </Text>
+    </Pressable>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "bottom": 0,
+          "flexDirection": "column",
+          "height": 128,
+          "paddingBottom": 10,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignContent": "space-between",
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="leave"
+        >
+          <CompassIcon
+            name="phone-hangup"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "#D24B4E",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Leave
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="toggle-speakerphone"
+        >
+          <CompassIcon
+            name="volume-high"
+            size={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "color": "#ffffff",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Speaker
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <RaisedHandIcon
+            fill="#ffffff"
+            height={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 34,
+                },
+              ]
+            }
+            svgStyle={
+              Object {
+                "position": "relative",
+                "right": 13,
+                "top": -12,
+              }
+            }
+            width={24}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Raise hand
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <CompassIcon
+            name="dots-horizontal"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.12)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            More
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="mute-unmute"
+        >
+          <CompassIcon
+            name="microphone-off"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.16)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Unmute
+          </Text>
+        </Pressable>
+      </View>
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`CallScreen should show controls in landscape view on click the users list 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "black",
+        "borderRadius": 5,
+        "flexDirection": "column",
+        "height": "100%",
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "flexDirection": "row",
+          "height": 64,
+          "padding": 0,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 10,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <CallDuration
+        style={
+          Object {
+            "color": "#ffffff",
+            "flex": 1,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+        updateIntervalInSeconds={1}
+        value={100}
+      />
+      <Pressable
+        onPress={[Function]}
+      >
+        <CompassIcon
+          name="arrow-collapse"
+          size={24}
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,0.12)",
+              "borderRadius": 4,
+              "color": "#ffffff",
+              "margin": 10,
+              "overflow": "hidden",
+              "padding": 10,
+            }
+          }
+        />
+      </Pressable>
+    </View>
+    <ScrollView
+      alwaysBounceVertical={false}
+      contentContainerStyle={Object {}}
+      horizontal={false}
+    >
+      <Pressable
+        onPress={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+        testID="users-list"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <CallAvatar
+            muted={false}
+            raisedHand={false}
+            sharingScreen={false}
+            size="l"
+            userId="user-1-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <CallAvatar
+            muted={true}
+            raisedHand={false}
+            sharingScreen={false}
+            size="l"
+            userId="user-2-id"
+            volume={0}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            User 2
+             (you)
+          </Text>
+        </View>
+      </Pressable>
+    </ScrollView>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.64)",
+          "bottom": 0,
+          "flexDirection": "column",
+          "height": 128,
+          "paddingBottom": 10,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignContent": "space-between",
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="leave"
+        >
+          <CompassIcon
+            name="phone-hangup"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "#D24B4E",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Leave
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="toggle-speakerphone"
+        >
+          <CompassIcon
+            name="volume-high"
+            size={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "color": "#ffffff",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Speaker
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <RaisedHandIcon
+            fill="#ffffff"
+            height={24}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "color": "#ffffff",
+                  "height": 68,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 22,
+                  "width": 68,
+                },
+                Object {
+                  "backgroundColor": "rgba(255,255,255,0.12)",
+                  "borderRadius": 34,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "padding": 34,
+                },
+              ]
+            }
+            svgStyle={
+              Object {
+                "position": "relative",
+                "right": 13,
+                "top": -12,
+              }
+            }
+            width={24}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Raise hand
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <CompassIcon
+            name="dots-horizontal"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.12)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            More
+          </Text>
+        </Pressable>
+        <Pressable
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+          testID="mute-unmute"
+        >
+          <CompassIcon
+            name="microphone-off"
+            size={24}
+            style={
+              Object {
+                "backgroundColor": "rgba(255,255,255,0.16)",
+                "borderRadius": 34,
+                "color": "#ffffff",
+                "height": 68,
+                "margin": 10,
+                "overflow": "hidden",
+                "padding": 22,
+                "width": 68,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+              }
+            }
+          >
+            Unmute
+          </Text>
+        </Pressable>
+      </View>
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;

@@ -1,0 +1,110 @@
+{
+  "extends": [
+    "plugin:mattermost/react",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "mattermost",
+    "import"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.5"
+    }
+  },
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+    "eol-last": ["error", "always"],
+    "global-require": 0,
+    "no-undefined": 0,
+    "react/display-name": [2, { "ignoreTranspilerName": false }],
+    "react/jsx-filename-extension": 0,
+    "camelcase": [
+      0,
+      {
+        "properties": "never"
+      }
+    ],
+    "@typescript-eslint/ban-types": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-unused-vars": [
+      2,
+      {
+        "vars": "all",
+        "args": "after-used"
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "warn",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/member-delimiter-style": 2,
+    "import/order": [
+      2,
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index", "type"],
+        "newlines-between": "always",
+        "pathGroups": [
+          {
+            "pattern": "@(@react-native-async-storage|@react-native-community|@react-native-cookies|@react-navigation|@rudderstack|@sentry|@testing-library)/**",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "@{**,*/**}",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "app/**",
+            "group": "parent",
+            "position": "before"
+          }
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "pathGroupsExcludedImportTypes": ["type"]
+      }
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js", "*.test.jsx"],
+      "env": {
+        "jest": true
+      }
+    },
+    {
+      "files": ["detox/e2e/**"],
+      "globals": {
+        "by": true,
+        "detox": true,
+        "device": true,
+        "element": true,
+        "waitFor": true
+      },
+      "rules": {
+        "func-names": 0,
+        "import/no-unresolved": 0,
+        "max-nested-callbacks": 0,
+        "no-process-env": 0,
+        "no-unused-expressions": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
+import PropTypes from 'prop-types';
+import React, {PureComponent} from 'react';
+import {intlShape} from 'react-intl';
+import {
+    DeviceEventEmitter,
+    FlatList,
+    StyleSheet,
+    View,
+} from 'react-native';
+import {Navigation} from 'react-native-navigation';
+import {SafeAreaView} from 'react-native-safe-area-context';
+
+import {dismissModal} from '@actions/navigation';
+import ChannelLoader from '@components/channel_loader';
+import FailedNetworkAction from '@components/failed_network_action';
+import NoResults from '@components/no_results';
+import DateSeparator from '@components/post_list/date_separator';
+import PostSeparator from '@components/post_separator';
+import StatusBar from '@components/status_bar';
+import {isDateLine, getDateForDateLine} from '@mm-redux/utils/post_list';
+import ChannelDisplayName from '@screens/search/channel_display_name';
+import SearchResultPost from '@screens/search/search_result_post';
+
+export default class SavedPosts extends PureComponent {
+    static propTypes = {
+        actions: PropTypes.shape({
+            clearSearch: PropTypes.func.isRequired,
+            getFlaggedPosts: PropTypes.func.isRequired,
+        }).isRequired,
+        postIds: PropTypes.array,
+        theme: PropTypes.object.isRequired,
+    };
+
+    static defaultProps = {
+        postIds: [],
+    };
+
+    static contextTypes = {
+        intl: intlShape.isRequired,
+    };
+
+    constructor(props) {
+        super(props);
+
+        props.actions.clearSearch();
+
+        this.state = {
+            didFail: false,
+            isLoading: false,
+        };
+    }
+
+    getFlaggedPosts = async () => {
+        const {actions} = this.props;
+        this.setState({isLoading: true});
+        const {error} = await actions.getFlaggedPosts();
+
+        this.setState({
+            isLoading: false,
+            didFail: Boolean(error),
+        });
+    };
+
+    componentDidMount() {
+        this.navigationEventListener = Navigation.events().bindComponent(this);
+
+        this.getFlaggedPosts();
+    }
+
+    navigationButtonPressed({buttonId}) {
+        if (buttonId === 'close-settings') {
+            dismissModal();
+        }
+    }
+
+    setListRef = (ref) => {
+        this.listRef = ref;
+    };
+
+    keyExtractor = (item) => item;
+
+    onViewableItemsChanged = ({viewableItems}) => {
+        if (!viewableItems.length) {
+            return;
+        }
+
+        const viewableItemsMap = viewableItems.reduce((acc, {item, isViewable}) => {
+            if (isViewable) {
+                acc[item] = true;
+            }
+            return acc;
+        }, {});
+
+        DeviceEventEmitter.emit('scrolled', viewableItemsMap);
+    };
+
+    renderEmpty = () => {
+        const {formatMessage} = this.context.intl;
+        const {theme} = this.props;
+
+        return (
+            <NoResults
+                description={formatMessage({
+                    id: 'mobile.flagged_posts.empty_description',
+                    defaultMessage: 'Saved messages are only visible to you. Mark messages for follow-up or save something for later by long-pressing a message and choosing Save from the menu.',
+                })}
+                iconName='bookmark-outline'
+                title={formatMessage({id: 'mobile.flagged_posts.empty_title', defaultMessage: 'No Saved messages yet'})}
+                theme={theme}
+            />
+        );
+    };
+
+    renderPost = ({item, index}) => {
+        const {postIds, theme} = this.props;
+
+        if (isDateLine(item)) {
+            return (
+                <DateSeparator
+                    date={getDateForDateLine(item)}
+                    theme={theme}
+                />
+            );
+        }
+
+        let separator;
+        const nextPost = postIds[index + 1];
+        if (nextPost && !isDateLine(nextPost)) {
+            separator = <PostSeparator theme={theme}/>;
+        }
+
+        return (
+            <View>
+                <ChannelDisplayName postId={item}/>
+                <SearchResultPost
+                    postId={item}
+                    highlightPinnedOrFlagged={false}
+                    skipFlaggedHeader={true}
+                    skipPinnedHeader={true}
+                    theme={theme}
+                />
+                {separator}
+            </View>
+        );
+    };
+
+    retry = () => {
+        this.getFlaggedPosts();
+    };
+
+    render() {
+        const {postIds, theme} = this.props;
+        const {didFail, isLoading} = this.state;
+
+        let component;
+        if (didFail) {
+            component = (
+                <FailedNetworkAction
+                    onRetry={this.retry}
+                    theme={theme}
+                />
+            );
+        } else if (isLoading) {
+            component = (
+                <ChannelLoader channelIsLoading={true}/>
+            );
+        } else if (postIds.length) {
+            component = (
+                <FlatList
+                    ref={this.setListRef}
+                    contentContainerStyle={style.sectionList}
+                    data={postIds}
+                    extraData={theme}
+                    keyExtractor={this.keyExtractor}
+                    keyboardShouldPersistTaps='always'
+                    keyboardDismissMode='interactive'
+                    removeClippedSubviews={true}
+                    renderItem={this.renderPost}
+                    onViewableItemsChanged={this.onViewableItemsChanged}
+                />
+            );
+        } else {
+            component = this.renderEmpty();
+        }
+
+        return (
+            <SafeAreaView
+                testID='saved_messages.screen'
+                style={style.container}
+            >
+                <StatusBar/>
+                {component}
+            </SafeAreaView>
+        );
+    }
+}
+
+const style = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+});

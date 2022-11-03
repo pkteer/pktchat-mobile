@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactionHeader should match snapshot 1`] = `
+<NativeViewGestureHandler>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "height": 36.5,
+        "maxWidth": 450,
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <ScrollView
+      alwaysBounceHorizontal={false}
+      horizontal={true}
+      overScrollMode="never"
+    >
+      <ReactionHeaderItem
+        count={2}
+        emojiName="smile"
+        highlight={true}
+        onPress={[Function]}
+        theme={
+          Object {
+            "awayIndicator": "#ffbc1f",
+            "buttonBg": "#1c58d9",
+            "buttonColor": "#ffffff",
+            "centerChannelBg": "#ffffff",
+            "centerChannelColor": "#3f4350",
+            "codeTheme": "github",
+            "dndIndicator": "#d24b4e",
+            "errorTextColor": "#d24b4e",
+            "linkColor": "#386fe5",
+            "mentionBg": "#ffffff",
+            "mentionColor": "#1e325c",
+            "mentionHighlightBg": "#ffd470",
+            "mentionHighlightLink": "#1b1d22",
+            "newMessageSeparator": "#cc8f00",
+            "onlineIndicator": "#3db887",
+            "sidebarBg": "#1e325c",
+            "sidebarHeaderBg": "#192a4d",
+            "sidebarHeaderTextColor": "#ffffff",
+            "sidebarTeamBarBg": "#14213e",
+            "sidebarText": "#ffffff",
+            "sidebarTextActiveBorder": "#5d89ea",
+            "sidebarTextActiveColor": "#ffffff",
+            "sidebarTextHoverBg": "#28427b",
+            "sidebarUnreadText": "#ffffff",
+            "type": "Denim",
+          }
+        }
+      />
+      <ReactionHeaderItem
+        count={1}
+        emojiName="+1"
+        highlight={false}
+        onPress={[Function]}
+        theme={
+          Object {
+            "awayIndicator": "#ffbc1f",
+            "buttonBg": "#1c58d9",
+            "buttonColor": "#ffffff",
+            "centerChannelBg": "#ffffff",
+            "centerChannelColor": "#3f4350",
+            "codeTheme": "github",
+            "dndIndicator": "#d24b4e",
+            "errorTextColor": "#d24b4e",
+            "linkColor": "#386fe5",
+            "mentionBg": "#ffffff",
+            "mentionColor": "#1e325c",
+            "mentionHighlightBg": "#ffd470",
+            "mentionHighlightLink": "#1b1d22",
+            "newMessageSeparator": "#cc8f00",
+            "onlineIndicator": "#3db887",
+            "sidebarBg": "#1e325c",
+            "sidebarHeaderBg": "#192a4d",
+            "sidebarHeaderTextColor": "#ffffff",
+            "sidebarTeamBarBg": "#14213e",
+            "sidebarText": "#ffffff",
+            "sidebarTextActiveBorder": "#5d89ea",
+            "sidebarTextActiveColor": "#ffffff",
+            "sidebarTextHoverBg": "#28427b",
+            "sidebarUnreadText": "#ffffff",
+            "type": "Denim",
+          }
+        }
+      />
+    </ScrollView>
+  </ForwardRef(AnimatedComponentWrapper)>
+</NativeViewGestureHandler>
+`;
+
+exports[`ReactionHeader should match snapshot, renderContent 1`] = `
+Array [
+  <ReactionHeaderItem
+    count={2}
+    emojiName="smile"
+    highlight={true}
+    onPress={[Function]}
+    theme={
+      Object {
+        "awayIndicator": "#ffbc1f",
+        "buttonBg": "#1c58d9",
+        "buttonColor": "#ffffff",
+        "centerChannelBg": "#ffffff",
+        "centerChannelColor": "#3f4350",
+        "codeTheme": "github",
+        "dndIndicator": "#d24b4e",
+        "errorTextColor": "#d24b4e",
+        "linkColor": "#386fe5",
+        "mentionBg": "#ffffff",
+        "mentionColor": "#1e325c",
+        "mentionHighlightBg": "#ffd470",
+        "mentionHighlightLink": "#1b1d22",
+        "newMessageSeparator": "#cc8f00",
+        "onlineIndicator": "#3db887",
+        "sidebarBg": "#1e325c",
+        "sidebarHeaderBg": "#192a4d",
+        "sidebarHeaderTextColor": "#ffffff",
+        "sidebarTeamBarBg": "#14213e",
+        "sidebarText": "#ffffff",
+        "sidebarTextActiveBorder": "#5d89ea",
+        "sidebarTextActiveColor": "#ffffff",
+        "sidebarTextHoverBg": "#28427b",
+        "sidebarUnreadText": "#ffffff",
+        "type": "Denim",
+      }
+    }
+  />,
+  <ReactionHeaderItem
+    count={1}
+    emojiName="+1"
+    highlight={false}
+    onPress={[Function]}
+    theme={
+      Object {
+        "awayIndicator": "#ffbc1f",
+        "buttonBg": "#1c58d9",
+        "buttonColor": "#ffffff",
+        "centerChannelBg": "#ffffff",
+        "centerChannelColor": "#3f4350",
+        "codeTheme": "github",
+        "dndIndicator": "#d24b4e",
+        "errorTextColor": "#d24b4e",
+        "linkColor": "#386fe5",
+        "mentionBg": "#ffffff",
+        "mentionColor": "#1e325c",
+        "mentionHighlightBg": "#ffd470",
+        "mentionHighlightLink": "#1b1d22",
+        "newMessageSeparator": "#cc8f00",
+        "onlineIndicator": "#3db887",
+        "sidebarBg": "#1e325c",
+        "sidebarHeaderBg": "#192a4d",
+        "sidebarHeaderTextColor": "#ffffff",
+        "sidebarTeamBarBg": "#14213e",
+        "sidebarText": "#ffffff",
+        "sidebarTextActiveBorder": "#5d89ea",
+        "sidebarTextActiveColor": "#ffffff",
+        "sidebarTextHoverBg": "#28427b",
+        "sidebarUnreadText": "#ffffff",
+        "type": "Denim",
+      }
+    }
+  />,
+]
+`;

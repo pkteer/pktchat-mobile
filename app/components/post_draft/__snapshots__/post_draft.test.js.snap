@@ -1,0 +1,723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostDraft Should render the Archived for channelIsArchived 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderTopColor": "rgba(63,67,80,0.2)",
+      "borderTopWidth": 1,
+      "paddingBottom": 10,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 10,
+    }
+  }
+  testID="post_draft.archived"
+>
+  <Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "textAlign": "center",
+          },
+          Array [
+            undefined,
+          ],
+        ]
+      }
+    >
+      You are viewing an 
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "textAlign": "center",
+          },
+          Array [
+            undefined,
+            Object {
+              "fontWeight": "bold",
+            },
+          ],
+        ]
+      }
+    >
+      archived channel
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "textAlign": "center",
+          },
+          Array [
+            undefined,
+          ],
+        ]
+      }
+    >
+      . New messages cannot be posted.
+    </Text>
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#1c58d9",
+        "borderRadius": 4,
+        "height": 40,
+        "marginTop": 10,
+        "opacity": 1,
+        "paddingBottom": 5,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+          "marginTop": 7,
+        }
+      }
+    >
+      Close Channel
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PostDraft Should render the Archived for deactivatedChannel 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderTopColor": "rgba(63,67,80,0.2)",
+      "borderTopWidth": 1,
+      "paddingBottom": 10,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 10,
+    }
+  }
+  testID="post_draft.archived"
+>
+  <Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "textAlign": "center",
+          },
+          Array [
+            undefined,
+          ],
+        ]
+      }
+    >
+      You are viewing an 
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "textAlign": "center",
+          },
+          Array [
+            undefined,
+            Object {
+              "fontWeight": "bold",
+            },
+          ],
+        ]
+      }
+    >
+      archived channel
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#3f4350",
+            "textAlign": "center",
+          },
+          Array [
+            undefined,
+          ],
+        ]
+      }
+    >
+      . New messages cannot be posted.
+    </Text>
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#1c58d9",
+        "borderRadius": 4,
+        "height": 40,
+        "marginTop": 10,
+        "opacity": 1,
+        "paddingBottom": 5,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+          "marginTop": 7,
+        }
+      }
+    >
+      Close Channel
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PostDraft Should render the DraftInput 1`] = `
+<KeyboardTrackingView
+  inverted={false}
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "bottom": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#3f4350",
+          "fontSize": 11,
+          "marginBottom": 2,
+          "paddingLeft": 10,
+          "paddingTop": 3,
+          "position": "absolute",
+        }
+      }
+    />
+  </View>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "left",
+        "right",
+      ]
+    }
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "#ffffff",
+        "borderTopColor": "rgba(63,67,80,0.2)",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 2,
+      }
+    }
+    testID="post_draft"
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "alignItems": "stretch",
+          "paddingTop": 7,
+        }
+      }
+      disableScrollViewPanResponder={true}
+      keyboardShouldPersistTaps="always"
+      overScrollMode="never"
+      pinchGestureEnabled={false}
+      scrollEnabled={false}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View>
+        <PasteInput
+          accessible={true}
+          allowFontScaling={true}
+          autoCapitalize="sentences"
+          autoCompleteType="off"
+          blurOnSubmit={false}
+          disableCopyPaste={false}
+          disableFullscreenUI={true}
+          focusable={true}
+          keyboardAppearance="light"
+          keyboardType="default"
+          mostRecentEventCount={0}
+          multiline={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onChangeText={[Function]}
+          onClick={[Function]}
+          onEndEditing={[Function]}
+          onFocus={[Function]}
+          onPaste={[Function]}
+          onPressIn={[Function]}
+          onPressOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onScroll={[Function]}
+          onSelectionChange={[Function]}
+          onStartShouldSetResponder={[Function]}
+          placeholder="Write to "
+          placeholderTextColor="rgba(63,67,80,0.5)"
+          screenId="NavigationScreen1"
+          style={
+            Array [
+              Object {
+                "color": "#3f4350",
+                "fontSize": 15,
+                "lineHeight": 20,
+                "maxHeight": 150,
+                "minHeight": 30,
+                "paddingBottom": 6,
+                "paddingHorizontal": 12,
+                "paddingTop": 6,
+              },
+            ]
+          }
+          testID="post_draft.post.input"
+          textContentType="none"
+          underlineColorAndroid="transparent"
+        />
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            isInteraction={true}
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 0,
+                "paddingBottom": 0,
+              }
+            }
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                Object {
+                  "alignItems": "flex-end",
+                  "paddingRight": 12,
+                }
+              }
+              horizontal={true}
+              keyboardShouldPersistTaps="handled"
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View />
+            </RCTScrollView>
+          </View>
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            isInteraction={true}
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginHorizontal": 12,
+                  "marginTop": 4,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 44,
+              }
+            }
+            testID="post_draft.quick_actions"
+          >
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="post_draft.quick_actions.at_input_action"
+            >
+              <Icon
+                color="rgba(63,67,80,0.64)"
+                name="at"
+                size={24}
+              />
+            </View>
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="post_draft.quick_actions.slash_input_action"
+            >
+              <Icon
+                color="rgba(63,67,80,0.64)"
+                name="slash-forward-box-outline"
+                size={24}
+              />
+            </View>
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="post_draft.quick_actions.file_action"
+            >
+              <Icon
+                color="rgba(63,67,80,0.64)"
+                name="file-text-outline"
+                size={24}
+              />
+            </View>
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="post_draft.quick_actions.image_action"
+            >
+              <Icon
+                color="rgba(63,67,80,0.64)"
+                name="image-outline"
+                size={24}
+              />
+            </View>
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="post_draft.quick_actions.camera_action"
+            >
+              <Icon
+                color="rgba(63,67,80,0.64)"
+                name="camera-outline"
+                size={24}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "justifyContent": "flex-end",
+                "paddingRight": 8,
+              }
+            }
+            testID="post_draft.send_action.send.button.disabled"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#1c58d9",
+                    "borderRadius": 4,
+                    "height": 32,
+                    "justifyContent": "center",
+                    "width": 80,
+                  },
+                  Object {
+                    "backgroundColor": "rgba(28,88,217,0.3)",
+                  },
+                ]
+              }
+            >
+              <Icon
+                color="rgba(255,255,255,0.5)"
+                name="send"
+                size={24}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </RNCSafeAreaView>
+</KeyboardTrackingView>
+`;
+
+exports[`PostDraft Should render the ReadOnly for canPost 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "rgba(63,67,80,0.04)",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "rgba(63,67,80,0.2)",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "height": 50,
+        "paddingHorizontal": 12,
+      }
+    }
+    testID="post_draft.read_only"
+  >
+    <Icon
+      color="#3f4350"
+      name="glasses"
+      style={
+        Object {
+          "fontSize": 20,
+          "lineHeight": 22,
+          "opacity": 0.56,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#3f4350",
+          "fontSize": 15,
+          "lineHeight": 20,
+          "marginLeft": 9,
+          "opacity": 0.56,
+        }
+      }
+    >
+      This channel is read-only.
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`PostDraft Should render the ReadOnly for channelIsReadOnly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "rgba(63,67,80,0.04)",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "rgba(63,67,80,0.2)",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "height": 50,
+        "paddingHorizontal": 12,
+      }
+    }
+    testID="post_draft.read_only"
+  >
+    <Icon
+      color="#3f4350"
+      name="glasses"
+      style={
+        Object {
+          "fontSize": 20,
+          "lineHeight": 22,
+          "opacity": 0.56,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#3f4350",
+          "fontSize": 15,
+          "lineHeight": 20,
+          "marginLeft": 9,
+          "opacity": 0.56,
+        }
+      }
+    >
+      This channel is read-only.
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;

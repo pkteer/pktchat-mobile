@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings SelectTimezone should match snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+  testID="settings.select_timezone.screen"
+>
+  <Connect(StatusBar) />
+  <View
+    style={
+      Object {
+        "height": 38,
+        "marginVertical": 5,
+      }
+    }
+  >
+    <Search
+      autoCapitalize="none"
+      backArrowSize={24}
+      backgroundColor="transparent"
+      blurOnSubmit={false}
+      cancelTitle="Cancel"
+      containerHeight={40}
+      deleteIconSize={20}
+      editable={true}
+      inputHeight={33}
+      inputStyle={
+        Object {
+          "backgroundColor": "rgba(63,67,80,0.2)",
+          "color": "#3f4350",
+          "fontSize": 15,
+        }
+      }
+      keyboardAppearance="light"
+      keyboardShouldPersist={false}
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onSelectionChange={[Function]}
+      placeholder="Search"
+      placeholderTextColor="rgba(63,67,80,0.5)"
+      returnKeyType="search"
+      searchBarRightMargin={0}
+      searchIconSize={24}
+      selectionColor="rgba(63,67,80,0.5)"
+      showArrow={false}
+      showCancel={true}
+      testID="settings.select_timezone.search_bar"
+      tintColorDelete="rgba(63,67,80,0.5)"
+      tintColorSearch="rgba(63,67,80,0.5)"
+      titleCancelColor="#3f4350"
+      value=""
+    />
+  </View>
+  <FlatList
+    data={Array []}
+    getItemLayout={[Function]}
+    initialScrollIndex={1}
+    keyExtractor={[Function]}
+    keyboardDismissMode="on-drag"
+    keyboardShouldPersistTaps="always"
+    maxToRenderPerBatch={15}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    viewabilityConfig={
+      Object {
+        "itemVisiblePercentThreshold": 100,
+        "waitForInteraction": false,
+      }
+    }
+  />
+</RNCSafeAreaView>
+`;

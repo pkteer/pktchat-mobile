@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectTeam should match snapshot for fail of teams 1`] = `
+<Connect(FailedNetworkAction)
+  onRetry={[Function]}
+  theme={
+    Object {
+      "awayIndicator": "#ffbc1f",
+      "buttonBg": "#1c58d9",
+      "buttonColor": "#ffffff",
+      "centerChannelBg": "#ffffff",
+      "centerChannelColor": "#3f4350",
+      "codeTheme": "github",
+      "dndIndicator": "#d24b4e",
+      "errorTextColor": "#d24b4e",
+      "linkColor": "#386fe5",
+      "mentionBg": "#ffffff",
+      "mentionColor": "#1e325c",
+      "mentionHighlightBg": "#ffd470",
+      "mentionHighlightLink": "#1b1d22",
+      "newMessageSeparator": "#cc8f00",
+      "onlineIndicator": "#3db887",
+      "sidebarBg": "#1e325c",
+      "sidebarHeaderBg": "#192a4d",
+      "sidebarHeaderTextColor": "#ffffff",
+      "sidebarTeamBarBg": "#14213e",
+      "sidebarText": "#ffffff",
+      "sidebarTextActiveBorder": "#5d89ea",
+      "sidebarTextActiveColor": "#ffffff",
+      "sidebarTextHoverBg": "#28427b",
+      "sidebarUnreadText": "#ffffff",
+      "type": "Denim",
+    }
+  }
+/>
+`;
+
+exports[`SelectTeam should match snapshot for teams 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  testID="select_team.screen"
+>
+  <Connect(StatusBar) />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginHorizontal": 16,
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginRight": 15,
+        }
+      }
+    >
+      <InjectIntl(FormattedText)
+        defaultMessage="Open teams you can join"
+        id="mobile.select_team.join_open"
+        style={
+          Object {
+            "color": undefined,
+            "fontSize": 13,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "flex": 1,
+          "height": 1,
+        }
+      }
+    />
+  </View>
+  <CustomList
+    canRefresh={true}
+    data={
+      Array [
+        Object {
+          "id": "kemjcpu9bi877yegqjs18ndp4r",
+          "invite_id": "ojsnudhqzbfzpk6e4n6ip1hwae",
+          "name": "test",
+        },
+      ]
+    }
+    extraData={false}
+    listType="flat"
+    loading={false}
+    loadingComponent={
+      <View
+        style={
+          Object {
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Loading
+          color="#3f4350"
+          size="small"
+          style={Object {}}
+        />
+      </View>
+    }
+    onLoadMore={[Function]}
+    onRefresh={[Function]}
+    refreshing={false}
+    renderItem={[Function]}
+    shouldRenderSeparator={false}
+    showNoResults={true}
+    testID="select_team.custom_list"
+    theme={
+      Object {
+        "awayIndicator": "#ffbc1f",
+        "buttonBg": "#1c58d9",
+        "buttonColor": "#ffffff",
+        "centerChannelBg": "#ffffff",
+        "centerChannelColor": "#3f4350",
+        "codeTheme": "github",
+        "dndIndicator": "#d24b4e",
+        "errorTextColor": "#d24b4e",
+        "linkColor": "#386fe5",
+        "mentionBg": "#ffffff",
+        "mentionColor": "#1e325c",
+        "mentionHighlightBg": "#ffd470",
+        "mentionHighlightLink": "#1b1d22",
+        "newMessageSeparator": "#cc8f00",
+        "onlineIndicator": "#3db887",
+        "sidebarBg": "#1e325c",
+        "sidebarHeaderBg": "#192a4d",
+        "sidebarHeaderTextColor": "#ffffff",
+        "sidebarTeamBarBg": "#14213e",
+        "sidebarText": "#ffffff",
+        "sidebarTextActiveBorder": "#5d89ea",
+        "sidebarTextActiveColor": "#ffffff",
+        "sidebarTextHoverBg": "#28427b",
+        "sidebarUnreadText": "#ffffff",
+        "type": "Denim",
+      }
+    }
+  />
+</RNCSafeAreaView>
+`;
+
+exports[`SelectTeam should match snapshot when user is a guest 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  testID="select_team.screen"
+>
+  <Connect(StatusBar) />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginHorizontal": 16,
+        "marginTop": 20,
+      }
+    }
+  >
+    <InjectIntl(FormattedText)
+      defaultMessage="Your guest account has no teams or channels assigned. Please contact an administrator."
+      id="mobile.select_team.guest_cant_join_team"
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 13,
+        }
+      }
+      testID="select_team.guest_cant_join_team"
+    />
+  </View>
+</View>
+`;

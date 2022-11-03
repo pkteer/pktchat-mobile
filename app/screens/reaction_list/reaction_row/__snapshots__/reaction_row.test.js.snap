@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactionRow should match snapshot, renderContent 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 44,
+      "justifyContent": "flex-start",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "width": "13%",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingTop": 3,
+          }
+        }
+      >
+        <Connect(ProfilePicture)
+          iconSize={18}
+          showStatus={false}
+          size={24}
+          testID="reaction_row.profile_picture"
+          userId="user_id"
+        />
+      </View>
+    </TouchableOpacity>
+  </View>
+  <Text
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={
+      Object {
+        "flexDirection": "row",
+        "width": "74%",
+      }
+    }
+    testID="reaction_row.user.user_id"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#3f4350",
+          "fontSize": 14,
+          "paddingRight": 5,
+        }
+      }
+    >
+      @username
+    </Text>
+    <Text>
+        
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "rgba(63,67,80,0.5)",
+          "fontSize": 14,
+        }
+      }
+    >
+      username
+    </Text>
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "13%",
+      }
+    }
+  >
+    <Connect(Emoji)
+      emojiName="smile"
+      size={24}
+      testID="reaction_row.emoji.smile.user_id"
+      textStyle={
+        Object {
+          "color": "#000",
+          "fontWeight": "bold",
+        }
+      }
+    />
+  </View>
+</View>
+`;

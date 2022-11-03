@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreMessagesButton should match snapshot 1`] = `
+<ForwardRef(AnimatedComponentWrapper)
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#1c58d9",
+        "elevation": 1,
+        "flex": 1,
+        "margin": 8,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      Object {
+        "borderRadius": 4,
+      },
+      Object {
+        "transform": Array [
+          Object {
+            "translateY": -550,
+          },
+        ],
+      },
+    ]
+  }
+>
+  <TouchableWithFeedbackIOS
+    onPress={[Function]}
+    style={
+      Object {
+        "borderRadius": 4,
+      }
+    }
+    type="native"
+    underlayColor="hsl(221, 50%, 38%)"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "space-evenly",
+            "paddingLeft": 11,
+            "paddingRight": 5,
+            "paddingVertical": 1,
+            "shadowColor": "#3f4350",
+            "shadowOffset": Object {
+              "height": 6,
+              "width": 0,
+            },
+            "shadowOpacity": 0.12,
+            "shadowRadius": 4,
+            "width": "100%",
+          },
+          Object {
+            "borderRadius": 4,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": 22,
+          }
+        }
+      >
+        <CompassIcon
+          name="arrow-up"
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontSize": 18,
+              "fontWeight": "bold",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 10,
+            "flexDirection": "row",
+            "paddingLeft": 4,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontWeight": "bold",
+              "paddingLeft": 0,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <TouchableWithFeedbackIOS
+        onPress={[Function]}
+        type="none"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+            }
+          }
+        >
+          <CompassIcon
+            name="close"
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#ffffff",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          />
+        </View>
+      </TouchableWithFeedbackIOS>
+    </View>
+  </TouchableWithFeedbackIOS>
+</ForwardRef(AnimatedComponentWrapper)>
+`;
