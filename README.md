@@ -5,7 +5,6 @@ Pull the code from our fork of the `mattermost-mobile/main` code.
 
 ```
 git clone https://github.com/pkteer/PktChat
-cd pktchat-mattermost-mobile
 ```
 
 ## Setup environment
