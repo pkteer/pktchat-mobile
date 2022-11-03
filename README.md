@@ -50,6 +50,11 @@ sudo gem install cocoapods -v 1.11.3
 git config --global user.email "email@example.com"
 ```
 
+## Set Android sdk path
+
+You should create `local.properties` file to `android` directory and set sdk path `sdk.dir = /Users/username/Library/Android/sdk` like this.
+The path can be other for different PC
+
 ## Module Installation
 
 Currently, `npm install` fails due to dependency conflicts and missing packages.
@@ -58,14 +63,7 @@ Therefore, we must run with the `--legacy-peer-deps` and `--force` flag
 
 ```console
 npm install --legacy-peer-deps
-```
-
-## Configure build environment
-
-Copy the `.env` and configure the settings for your Fastlane and AppStoreConnect accounts.
-
-```
-cp fastlane/env_vars_example .env
+cd ios pod install
 ```
 
 ## Compiling
@@ -83,3 +81,18 @@ npm run ios
 ```
 npm run android
 ```
+
+## Build for release
+### Android
+1. `cd android`
+2. `sudo ./gralew clean`
+3. `cd ../`
+4. `react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res`
+5. `sudo ./gradlew assembleRelease -x bundleReleaseJsAndAssets` this for .apk file
+6. `sudo ./gradlew bundleRelease -x bundleReleaseJsAndAssets` this for .aab file (Play Store)
+
+### IOS
+1. done with Xcode
+
+> **_NOTE:_**  Don't forget change versions in any new release.
+
